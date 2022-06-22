@@ -122,7 +122,7 @@ class TwoInOne{
             for(let i = 0; i < 3; i++)
                 led.plot(Math.abs(this.movableGrid.getPointPos("A").x-i), 2)
             for(let i = 0; i < 2; i++)
-                led.plot(2, Math.abs(this.movableGrid.getPointPos("A").x-i))
+                led.plot(2, Math.abs(this.movableGrid.getPointPos("A").y-i))
 
             basic.pause(250);
 
@@ -132,16 +132,6 @@ class TwoInOne{
                 led.plot(Math.abs(this.movableGrid.getPointPos("A").x-i), Math.abs(this.movableGrid.getPointPos("A").y-4))
 
             basic.pause(550);
-
-            basic.showLeds(`
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            # # # # #
-            `)
-
-            basic.pause(350);
 
             basic.clearScreen();
 

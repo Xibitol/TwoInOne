@@ -1,5 +1,5 @@
 {
-    "name": "Test",
+    "name": "Little fix and change",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -12,6 +12,10 @@
     "testFiles": [
         "test.ts"
     ],
+    "targetVersions": {
+        "target": "5.0.6",
+        "targetId": "microbit"
+    },
     "supportedTargets": [
         "microbit"
     ],
